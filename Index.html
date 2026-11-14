@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="si">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday Hasi ❤️</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Segoe UI',sans-serif;
+}
+
+body{
+background:linear-gradient(135deg,#ff5f8f,#ff8fb1,#ffd6e5);
+min-height:100vh;
+text-align:center;
+overflow-x:hidden;
+color:white;
+}
+
+.hero{
+padding:40px 20px;
+}
+
+h1{
+font-size:3rem;
+margin-bottom:10px;
+}
+
+.subtitle{
+font-size:1.2rem;
+margin-bottom:30px;
+}
+
+.cake{
+position:relative;
+width:180px;
+margin:40px auto;
+}
+
+.layer{
+height:60px;
+border-radius:15px;
+background:#ffb6c1;
+margin-bottom:4px;
+}
+
+.layer:nth-child(2){
+width:140px;
+margin:auto;
+background:#ff89a8;
+}
+
+.layer:nth-child(1){
+width:100px;
+margin:auto;
+background:#ff5d8f;
+}
+
+.candles{
+display:flex;
+justify-content:center;
+gap:15px;
+margin-bottom:-10px;
+}
+
+.candle{
+width:10px;
+height:40px;
+background:white;
+position:relative;
+}
+
+.flame{
+width:14px;
+height:20px;
+background:orange;
+border-radius:50% 50% 50% 50%;
+position:absolute;
+top:-18px;
+left:-2px;
+opacity:0;
+box-shadow:0 0 20px gold;
+animation:flicker .6s infinite alternate;
+}
+
+@keyframes flicker{
+from{transform:scale(1);}
+to{transform:scale(1.2);}
+}
+
+button{
+padding:14px 25px;
+border:none;
+border-radius:30px;
+cursor:pointer;
+margin:10px;
+font-size:16px;
+background:white;
+color:#ff4081;
+font-weight:bold;
+}
+
+.hidden{
+display:none;
+}
+
+.message{
+max-width:900px;
+margin:30px auto;
+padding:30px;
+background:rgba(255,255,255,.15);
+backdrop-filter:blur(5px);
+border-radius:20px;
+line-height:2;
+font-size:18px;
+white-space:pre-line;
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+padding:40px;
+max-width:1000px;
+margin:auto;
+}
+
+.gallery img{
+width:100%;
+border-radius:20px;
+box-shadow:0 10px 20px rgba(0,0,0,.25);
+transition:.4s;
+}
+
+.gallery img:hover{
+transform:scale(1.05);
+}
+
+.heart{
+position:fixed;
+font-size:24px;
+animation:float 8s linear infinite;
+opacity:.8;
+}
+
+@keyframes float{
+0%{
+transform:translateY(100vh);
+opacity:1;
+}
+100%{
+transform:translateY(-100px);
+opacity:0;
+}
+}
+</style>
+</head>
+<body>
+
+<div class="hero">
+
+<h1>🎂 Happy Birthday Hasi ❤️</h1>
+
+<p class="subtitle">
+වාසනාවන්ත සුභම සුභ උපන්දිනයක් මගෙ හසී 💆❤️🫂😘
+</p>
+
+<div class="cake">
+
+<div class="candles">
+<div class="candle"><div class="flame"></div></div>
+<div class="candle"><div class="flame"></div></div>
+<div class="candle"><div class="flame"></div></div>
+</div>
+
+<div class="layer"></div>
+<div class="layer"></div>
+<div class="layer"></div>
+
+</div>
+
+<button onclick="lightCandles()">
+🕯️ Light The Candles
+</button>
+
+<button onclick="showMessage()">
+❤️ Open My Heart
+</button>
+
+</div>
+
+<div id="loveMessage" class="message hidden">
+
+අතරමඟ අහම්බෙන් හමුවු ඒ ආදරණීය ආත්මයට
+
+ආදරයෙන් මෙසේ ලියමි.... ❤️
+
+දෝතින්ම තුරුල්කර
+ළඟ තබාගත නොහැකි නමුත්,
+මගේ කතාවේ විශේෂ පරිච්ඡේදයක් වූ
+නුඹ වෙනුවෙන්....
+
+බලාපොරොත්තු ඇතිව හෝ රහිතව
+හද පතුලේ නිදන් කළ ප්‍රේමය
+සදාකාලිකය....
+
+මාව අවුලන මිනිසුන් දහසක් මැද
+මාව නිවාලන
+ඔයාට මං හරි ආදරෙයි....
+
+ඔයා තරම් මේ ලෝකෙ කිසිම කෙනෙක්
+මට මගේ ජීවිතේ ගැන ආදරයක් ඇතිකරේ නෑ
+ඒ නිසා මේ බැඳීමට
+ආදරේ කියන වචනේ මදි මට...
+
+මම අදටත් දන්නේ නෑ
+ඔයාට මගේ ආදරේ
+කොච්චර දැනෙනවද කියලා...
+
+ඒත් මීට කලින් කාටවත්ම
+මේ තරම් ආදරේ කරලා නෑ
+
+ඉතිං මං අන්තිමට ආදරේ කරන්නේ ඔයාට....
+
+ඉතින්,
+
+මා ආදරයෙන් ළෙංගතුව වැලඳගත්
+අදටත් හමු වූ හොඳම හමුවීම මෙන්ම 
+මාගේ  අවසාන තේරීම
+නුඹ බව පමණක්
+මෙසේ ලියා තබමි....!!
+
+💆‍♂️
+
+</div>
+
+<div class="gallery">
+    <img src="photo1.jpeg">
+    <img src="photo2.jpeg">
+    <img src="photo3.jpeg">
+</div>
+
+</div>
+<script>
+function lightCandles(){
+document.querySelectorAll('.flame')
+.forEach(f=>f.style.opacity='1');
+
+alert("✨ Make a Wish Hasi ✨");
+}
+
+function showMessage(){
+document.getElementById('loveMessage')
+.classList.remove('hidden');
+window.scrollTo({
+top:document.getElementById('loveMessage').offsetTop,
+behavior:'smooth'
+});
+}
+
+for(let i=0;i<40;i++){
+const heart=document.createElement('div');
+heart.innerHTML='❤️';
+heart.className='heart';
+heart.style.left=Math.random()*100+'vw';
+heart.style.animationDuration=(6+Math.random()*6)+'s';
+heart.style.fontSize=(15+Math.random()*20)+'px';
+document.body.appendChild(heart);
+}
+</script>
+
+</body>
+</html>
